@@ -3,6 +3,46 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignorar a pasta cfg
+/cfg/
+
+# Dependências do Composer
+/vendor/
+/composer.lock
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache e logs
+/app/cache/*
+/var/cache/*
+/tmp/*
+/app/logs/*
+/var/logs/*
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+
+# Ignorar arquivos de upload (se aplicável)
+/uploads/
+/storage/
+
+# Ignorar arquivos de teste (se aplicável)
+/tests/
+
 # User-specific files
 *.rsuser
 *.suo
