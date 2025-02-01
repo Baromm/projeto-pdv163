@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #250529;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dados-loja {
+    text-align: left;
+}
+
+.dados-loja p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.separador {
+    width: 100%;
+    height: 1px;
+    background-color: #FFD700;
+    margin: 10px 0;
+}
+
+.versao {
+    text-align: right;
+}
+
+.versao p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.versao a {
+    color: #cda400;
+    text-decoration: none;
+}
+
+.versao a:hover {
+    color: #e1c000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .caixa {
+        flex: 1 1 calc(100% - 10px);
+    }
+
+    .botao a {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
